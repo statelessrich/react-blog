@@ -53,8 +53,8 @@ class NewPost extends Component {
                         {/*Buttons*/}
                         <div className="form-group">
                             <div className="col-sm-10 col-sm-offset-1">
-                                <button type="reset" className="btn btn-default">Cancel</button>
-                                <button type="submit" className="btn btn-primary">Submit</button>
+                                <button type="reset" className="btn">Cancel</button>
+                                <button type="submit" className="btn">Submit</button>
                             </div>
                         </div>
                     </fieldset>

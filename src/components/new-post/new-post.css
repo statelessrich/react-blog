@@ -1,5 +1,22 @@
 .btn {
-     margin: 10px;
+    margin: 10px;
+    background: transparent;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    border-radius: 0;
+    border: 2px solid;
+    box-shadow: none;
+}
+
+.btn:hover {
+    background: #eeeeee;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+.btn:focus, .btn:active:focus {
+    outline: none;
 }
 
 textarea.form-control.content {
