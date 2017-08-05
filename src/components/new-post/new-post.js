@@ -28,7 +28,7 @@ class NewPost extends Component {
 
     render() {
         return (
-            <section className="well">
+            <section className="well new-post">
                 <h1>new post</h1>
                 <form className="form-horizontal"
                       onSubmit={event => this.createPost(event, this.title.value, this.content.value)}
