@@ -21,7 +21,7 @@
 }
 
 .nav-item {
-    background-color: #fff;
+    background-color: #f9f9f9;
     margin: 0 10px -1px 0;
     width: 100px;
 }
@@ -33,7 +33,7 @@ a {
 }
 
 .nav > li > a:hover, .nav > li > a:active {
-    background-color: #fff;
+    background-color: #f3f3f3;
     color: #000;
 }
 
