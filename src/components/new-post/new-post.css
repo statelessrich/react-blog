@@ -5,14 +5,15 @@
 .btn {
     margin: 10px;
     background: transparent;
-    transition: background .2s ease-in-out, border .2s ease-in-out;
     border-radius: 0;
-    border: 2px solid;
+    border: 1px solid;
     box-shadow: none;
+    text-transform: none;
 }
 
 .btn:hover {
-    background: #f9f9f9;
+    border-width: 1.5px;
+    padding: 5px 15px;
 }
 
 .btn:active {
